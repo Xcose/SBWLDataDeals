@@ -65,6 +65,11 @@ const Hero = () => {
 						style={{ color: "white" }}
 						icon="pi pi-chevron-down"
 						className="p-button-rounded p-button-secondary p-button-outlined"
+						onClick={() => {
+							document
+								.getElementById("deals")
+								.scrollIntoView({ behavior: "smooth" });
+						}}
 					/>
 				</div>
 			</div>
